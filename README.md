@@ -7,12 +7,11 @@ This is a demo build by Grails 2022.0.0
 
 To enable Spring Boot Actuator, For Gradle, use the following declaration:
 
-[indent=0]
-----
+```gradle
 	dependencies {
 		implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	}
-----
+```
 
 Now in Grails `2022.0.0`, we also add this feature:
 The `plugins` endpoint provides basic Grails plugins information. Run up a basic Grails application and look at `/actuator/plugins`.
@@ -68,6 +67,6 @@ The resule:
         "urlMappings"
       ]
     },
-...
+
 }
 ```
